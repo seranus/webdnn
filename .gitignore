@@ -25,3 +25,16 @@ example/neural_style_transfer_keras/neural-style-keras
 /src/descriptor_runner/**/*.js
 !/src/descriptor_runner/webpack.config.js
 !/src/descriptor_runner/webpack.config.es5.js
+/.vs/webdnn/v15
+/env
+/bin/crfasrnn
+/bin/sample model
+/models
+/yarn.lock
+/webdnn.sln
+/webdnn.pyproj
+/FaceNet.py
+/face-aligment.py
+/conver_chainer.py
+/convert_tf.py
+/requirements.txt

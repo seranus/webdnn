@@ -1,5 +1,7 @@
 import sys
 
+sys.argv.extend(['install'])
+
 if sys.version_info < (3, 6):
     sys.stderr.write("Sorry, this library only works with python >= 3.6\n")
     sys.exit(1)

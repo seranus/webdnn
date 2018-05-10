@@ -203,6 +203,10 @@ def _convert_up_sampling1d(converter: KerasConverter, k_op: "keras.layers.UpSamp
 # noinspection PyUnusedLocal
 @KerasConverter.register_handler("UpSampling2D")
 def _convert_up_sampling2d(converter: KerasConverter, k_op: "keras.layers.UpSampling2D"):
+    x = converter.get_variable(converter.get_input_tensor(k_op)[0])
+    check_data_format(x, k_op.data_format)
+
+    #concat
     # TODO
     raise NotImplementedError('[KerasConverter] keras.layers.UpSampling2D is not supported')
 

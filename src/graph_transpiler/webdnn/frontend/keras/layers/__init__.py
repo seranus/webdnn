@@ -10,3 +10,4 @@ from webdnn.frontend.keras.layers import normalization
 from webdnn.frontend.keras.layers import pooling
 from webdnn.frontend.keras.layers import recurrent
 from webdnn.frontend.keras.layers import wrappers
+from webdnn.frontend.keras.layers import custom
